@@ -1,0 +1,57 @@
+/*Estilos globais*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3c5ee8c;
+    color: #333;
+
+
+}
+
+
+header{
+    background-color: #333;
+    padding: 10px 0;
+}
+
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+header nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+
+
+header nav ul li a{
+    color: rgb(202, 221, 225);
+    text-decoration: none;
+}
+
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
